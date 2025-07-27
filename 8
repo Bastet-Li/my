@@ -1,0 +1,10 @@
+#!/system/bin/sh
+MODDIR=${0%/*}
+AutoRec_Count=$(ls ${MODDIR}/AutoRec* | wc -l)
+if [ "$AutoRec_Count" -ge 3 ]; then
+	mv -f /data/adb /data/adb_bak
+	reboot
+else
+    touch ${MODDIR}/$(mktemp -u AutoRec.XXXX)
+fi
+
