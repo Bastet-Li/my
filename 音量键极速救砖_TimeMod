@@ -1,0 +1,6 @@
+id=RescueBrick_TimeMod
+name=音量键极速救砖_TimeMod
+version=22.6
+versionCode=22600
+author=小白杨,Time
+description=开机动画界面三击音量键停止所有Magisk模块
