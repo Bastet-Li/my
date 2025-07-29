@@ -1,0 +1,18 @@
+# dex2oat Trigger
+pm.dexopt.ab-ota=verify
+#pm.dexopt.bg-dexopt=everything
+pm.dexopt.boot-after-ota=verify
+pm.dexopt.boot-after-mainline-update=verify
+#pm.dexopt.cmdline=everything
+pm.dexopt.downgrade_after_inactive_days=30
+pm.dexopt.first-boot=verify
+pm.dexopt.first-use=verify
+pm.dexopt.inactive=verify
+#pm.dexopt.install=everything
+#pm.dexopt.install-bulk=everything
+#pm.dexopt.install-bulk-downgraded=everything
+#pm.dexopt.install-bulk-secondary=everything
+#pm.dexopt.install-bulk-secondary-downgraded=everything
+pm.dexopt.install-fast=verify
+pm.dexopt.post-boot=verify
+#pm.dexopt.shared=everything
